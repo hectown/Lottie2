@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" BackgroundColor="blue"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="Lottie2.MainPage">
 
     <StackLayout>
 
-        <forms:AnimationView x:Name="lottie" Animation="cargandodos.json" AutoPlay="True" RepeatMode="Infinite" HeightRequest="400" ImageAssetsFolder="images"/>
+        <forms:AnimationView x:Name="lottie" Animation="loading2.json" AutoPlay="True" RepeatMode="Infinite" HeightRequest="200" ImageAssetsFolder="images"/>
 
      
 

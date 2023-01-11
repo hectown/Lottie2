@@ -63,9 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\prueba.json" />
-    <AndroidAsset Include="Assets\cargandouno.json" />
-    <AndroidAsset Include="Assets\cargandodos.json" />
+    <AndroidAsset Include="Assets\loading2.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -96,16 +94,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\images\contorno.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidAsset Include="Assets\images\img_0.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\images\img_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="Assets\images\relleno.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
